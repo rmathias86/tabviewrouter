@@ -1,0 +1,9 @@
+<ActionBar title="" class="action-bar">
+   <GridLayout class="container" columns="*, auto, *" >
+    <Image col="0" horizontalAlignment="left" src="res://ic_back" [nsRouterLink]="['/tab1', { outlets: { tab1outlet: ['tab1home'] } } ]" class="action-icon action-left"></Image>
+    <Label col="1" text="Inner Tab" verticalAlignment="center"></Label>
+    <Button col="2"  horizontalAlignment="right"  src="res://ic_back" text="Inner Opts" class="action-right"></Button>
+  </GridLayout>
+</ActionBar>
+
+<Label text="inner test" textWrap="true"></Label>

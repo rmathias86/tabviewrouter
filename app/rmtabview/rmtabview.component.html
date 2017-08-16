@@ -1,0 +1,15 @@
+<GridLayout class="tabview" columns="*,*,*,*">
+    <StackLayout row="0" col="0">
+        <rmtabviewitem [selected]="selectedTab==1" (outputEvent)= "onComponentChange($event)" tabnumber="1" routerpath="/tab1/(tab1outlet:tab1home)"  tabname="tab1" icon="res://tabicon" ></rmtabviewitem>
+    </StackLayout>
+  <StackLayout row="0" col="1">
+        <rmtabviewitem [selected]="selectedTab==2" (outputEvent)= "onComponentChange($event)" tabnumber="2" routerpath="/tab2" tabname="Tab2" icon="res://tabicon"></rmtabviewitem>
+    </StackLayout>
+    <StackLayout row="0" col="2">
+        <rmtabviewitem [selected]="selectedTab==3" (outputEvent)= "onComponentChange($event)" tabnumber="3" routerpath="/tab3" tabname="Tab3" icon="res://tabicon"></rmtabviewitem>
+    </StackLayout>
+    <StackLayout row="0" col="3">
+        <rmtabviewitem [selected]="selectedTab==4" (outputEvent)= "onComponentChange($event)" tabnumber="4" routerpath="/tab4" tabname="Tab4" icon="res://tabicon"></rmtabviewitem>
+    </StackLayout>
+</GridLayout>
+

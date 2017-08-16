@@ -1,0 +1,8 @@
+<ActionBar title="Tab 1 Home" icon="" class="action-bar">
+  <ActionItem ios.position="right">
+    <Button text="Tab1 Opts" class="action-item"></Button>
+  </ActionItem>
+</ActionBar>
+
+<Button [nsRouterLink]="['/tab1', { outlets: { tab1outlet: ['tab1inner1'] } } ]" text="go to inner component"></Button>
+<Button [nsRouterLink]="['/tab2']" text="go to Tab 2" clearHistory="true" pageTransition="none"></Button>

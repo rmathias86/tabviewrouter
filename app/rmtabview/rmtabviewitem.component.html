@@ -1,0 +1,6 @@
+ <StackLayout (tap)="onTap($event)" [ngClass]="selected ? 'tabviewitem selected' : 'tabviewitem'" horizontalAlignment="center" horizontalAlignment="center"  >
+    <Image src="{{icon}}"></Image>
+    <Label [text]="tabname" ></Label>
+</StackLayout>
+
+<!-- [nsRouterLink]="routerpath" clearHistory="true" pageTransition="none" -->
